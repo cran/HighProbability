@@ -1,0 +1,12 @@
+If you have trouble installing this R package, try this instead:
+1. Use setwd('HighProbability/R') to set the working directory to the directory with "HighProbability.s". You may have to use a different argument for setwd(), depending on your current directory and operating system.
+2. Use source('HighProbability.s').
+3. See the man directory and davidbickel.com for documentation.
+Your session would look simimar to this:
+> setwd('HighProbability/R')
+> source('HighProbability.s')
+
+If you will HighProbability regularly, it may be worth the effort to install the entire package. See the R documentation for UNIX, or install the package through the pull-down menus of R for Windows or RAqua for Mac OS X. Once it is installed, use this command:
+> library(HighProbability)
+
+Visit davidbickel.com for updates and related publications.
