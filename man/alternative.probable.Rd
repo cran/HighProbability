@@ -23,9 +23,11 @@ alternative.beneficial(p.values, cost.to.benefit = 1, marginal.probability = NUL
   These functions return a logical vector with the same length as p.values. If an element in the vector is TRUE, then the corresponding p-value is low enough to warrant considering its alternative hypothesis true. The vector returned indicates which null hypotheses are considered true and which are considered false, based either on belief (for alternative.probable) or decision (for alternative.beneficial).
 }
 \references{
-Bickel, D. R. (2004) "HighProbability determines which alternative hypotheses are highly probable: Genomic applications include detection of differential gene expression," arXiv.org e-print ID math.PR/0402465, \url{http://arxiv.org/abs/math.PR/0402465}
+Bickel, D. R. (2004) "HighProbability determines which alternative hypotheses are highly probable: Genomic applications include detection of differential gene expression," arXiv.org e-print ID q-bio.QM/0402049, \url{http://arxiv.org/abs/q-bio.QM/0402049}
 
-Bickel, D. R. (2004) "Reliably determining which genes have a high posterior probability of differential expression: Which genes have high objective probabilities of differential expression?" arXiv.org e-print ID math.PR/0402460, \url{http://arxiv.org/abs/math.PR/0402460}
+D. R. Bickel, ÒError-rate and decision-theoretic methods of multiple testing: Which genes have high objective probabilities of differential expression?Ó to appear in Statistical Applications in Genetics and Molecular Biology (2004)
+
+Bickel, D. R. (2004) "Reliably determining which genes have a high posterior probability of differential expression: A microarray application of decision-theoretic multiple testing"; arXiv.org e-print ID bio.QM/0402048, \url{http://arxiv.org/abs/q-bio.QM/0402048}
 
 Updated references and documentation may be available through \url{http://www.davidbickel.com}.  }
 \author{ David R. Bickel (\email{bickel@prueba.info}, \url{davidbickel.com}) }
